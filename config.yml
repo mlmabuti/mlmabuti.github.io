@@ -1,0 +1,121 @@
+languageCode: en-us
+baseURL: "https://mlmabuti.github.io/"
+title: mlmabuti
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+#googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Marjolo Mabuti
+  description: "BS Computer Science student at New Era University, Philippines"
+  keywords: [Blog, Portfolio, Software Engineering]
+  author: Marjolo Mabuti
+  # author: ["Me", "You"] # multiple authors
+  #images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: false
+  ShowShareButtons: false 
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  label:
+    text: "mlmabuti"
+    # icon: "images/coding.png"
+    # iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: "Hello there! \U0001F44B"
+    subtitle: "I'm a computer science student from the Philippines.
+    In my spare time, I play CTFs focused on web exploitation."
+    imageUrl: "images/dp.jpeg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: "just-me"    
+    buttons:
+      - name: Blogs
+        url: https://jojosordinaryadventure.hashnode.dev/
+      - name: Projects
+        url: projects
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hello there! \U0001F44B"
+    Content: "I'm a computer science student from the Philippines. 
+    In my spare time, I play CTFs focused on web exploitation."
+
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/marjolo-mabuti/"
+    - name: github
+      url: "https://github.com/mlmabuti"
+    - name: buymeacoffee
+      url: "https://www.buymeacoffee.com/mlmabuti"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  editPost:
+    #    URL: "https://github.com/chanin-www/content"
+    #    Text: "Suggest Changes" # edit text
+    URL: ""
+    Text: "" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 4
+    - identifier: blog
+      name: Blogs
+      url: https://jojosordinaryadventure.hashnode.dev/
+      weight: 1
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 2
