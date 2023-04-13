@@ -40,6 +40,9 @@ params:
   showtoc: false
   tocopen: false
 
+  assets:
+    favicon: "images/favicon.png"
+
   label:
     text: "mlmabuti"
     # icon: "images/coding.png"
