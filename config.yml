@@ -52,23 +52,21 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: "Hello there! \U0001F44B"
-    subtitle: "I'm a computer science student from the Philippines.
-    In my spare time, I play CTFs focused on web exploitation."
+    subtitle: "I'm a computer science student from the Philippines."
     imageUrl: "images/dp.jpeg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: "just-me"    
     buttons:
-      - name: Blogs
-        url: https://jojosordinaryadventure.hashnode.dev/
+      - name: Blogs & Write-ups
+        url: https://hashnode.com/@mlmabuti
       - name: Projects
         url: projects
 
   # home-info mode
   homeInfoParams:
     Title: "Hello there! \U0001F44B"
-    Content: "I'm a computer science student from the Philippines. 
-    In my spare time, I play CTFs focused on web exploitation."
+    Content: "I'm a computer science student from the Philippines."
 
   socialIcons:
     - name: linkedin

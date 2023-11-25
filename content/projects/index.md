@@ -2,7 +2,7 @@
 title: Projects
 ---
 
-It's me. Hi, I'll be dumping my projects in this page.
+I'll be dumping my projects in this page.
 
 ## Conan
 
