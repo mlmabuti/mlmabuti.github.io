@@ -113,8 +113,8 @@ menu:
       url: /about/
       weight: 4
     - identifier: blog
-      name: Blogs
-      url: https://jojosordinaryadventure.hashnode.dev/
+      name: Blogs & Write-ups
+      url: https://hashnode.com/@mlmabuti
       weight: 1
     - identifier: projects
       name: Projects
